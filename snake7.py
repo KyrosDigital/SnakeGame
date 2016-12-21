@@ -177,7 +177,7 @@ if __name__ == '__main__':
         food.render()
         #12 addstr to the window
         window.addstr(0, 5, snake.score)
-        #13 getch() (gets a character from user input, no output - this is useful for password input)
+        #13 getch() (gets a character from user input
         event = window.getch()
 
 

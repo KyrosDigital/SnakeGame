@@ -119,6 +119,9 @@ if __name__ == '__main__':
         snake.render()
         #8.4 render food
         food.render()
-
+        #12 addstr to the window
+        window.addstr(0, 5, snake.score)
+        #13 getch() (gets a character from user input
+        event = window.getch()
     #9 end curses while no longer true
     curses.endwin()
