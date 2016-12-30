@@ -169,7 +169,7 @@ if __name__ == '__main__':
         if snake.head.x == food.x and snake.head.y == food.y:
             snake.eat_food(food)
 
-        #5 still not sure what this does.....
+        #5 
         if event == 32:
             key = -1
             while key != 32:
